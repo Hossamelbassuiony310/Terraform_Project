@@ -1,4 +1,4 @@
-#AWS Infrastructure Overview#
+**AWS Infrastructure Overview**
 This diagram illustrates a complex multi-tier architecture deployed on Amazon Web Services (AWS) using Infrastructure as Code (IaC) tools, such as Terraform. The architecture is designed for high availability, scalability, and security, utilizing both public and private resources distributed across multiple subnets.
 
 Key Components
