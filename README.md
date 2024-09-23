@@ -12,7 +12,7 @@ This diagram illustrates a complex multi-tier architecture deployed on Amazon We
    - **public_lb_sg**: Security group for the public load balancer, handling inbound traffic.
    - **private_lb_sg**: Security group for the private load balancer, handling internal traffic.
    - **reverse_proxy_sg**: Controls access to the reverse proxy host, allowing secure SSH access to bastion instances and HTTP access to the public load balancer.
-   - **nginx_sg**: Controls access to the reverse proxy host, allowing secure SSH access to bastion instances and HTTP access to the private load balancer.
+   - **nginx_sg**: Controls access to the nginx host(backend server), allowing secure SSH access to bastion instances and HTTP access to the private load balancer.
 
 3. **Subnets**
    - **Public Subnets** (`public1`, `public2`): Subnets for resources that require internet access, like the bastion host and public-facing load balancers.
